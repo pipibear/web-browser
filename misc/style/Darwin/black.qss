@@ -1,0 +1,305 @@
+/*title bar*/
+TitleBar {
+    background-color: #413737;
+}
+#iconLabel{
+    margin-left:5px;
+}
+#titleLabel{
+    color:#fff;
+    margin-left:5px;
+}
+#moreMenu{
+    border:0px;
+    padding:0px;
+}
+#moreMenu QLabel { 
+    background-color: #505050;
+    color: #fff;
+    padding: 5px;
+    min-width:120px;
+    min-height:30px;
+} 
+#moreMenu QLabel:hover { 
+    background-color: #3c3c3c;
+} 
+#buttonMinimum,#buttonMaximum,#buttonClose,#buttonMore {
+    border: none;
+    background-color: #413737;
+    color:#fff;
+    font-family:Webdings;
+    min-width:40px;
+    max-width:40px;
+}
+#buttonMinimum{
+    margin-top:-8px;
+}
+#buttonMore{
+    padding-left:10px;
+    min-width:30px;
+    max-width:30px;
+}
+#buttonMore::menu-indicator{
+    image:none;
+}
+#buttonMinimum:hover,#buttonMaximum:hover,#buttonMore:hover {
+    background-color: #505050;
+    color: white;
+}
+#buttonClose:hover {
+    background-color: #D32424;
+    color: white;
+}
+#buttonMinimum:pressed,#buttonMaximum:pressed {
+    background-color: Firebrick;
+}
+#buttonClose:pressed {
+    color: white;
+    background-color: Firebrick;
+}
+
+
+/*tab*/
+QTabWidget::pane{
+	border: 1px;
+	background:transparent;
+}
+QTabWidget::tab-bar{
+	background:transparent;
+	subcontrol-position:left;
+}
+QTabBar{
+    background-color:transparent;
+    qproperty-drawBase:0;
+}
+QTabBar::tab{
+    min-width:75px;
+    min-height:30px;
+    background:transparent;
+}
+ 
+QTabBar::tab:selected{
+    color: #666;
+    background:transparent;
+    border-bottom:1px solid red;
+}
+ 
+QTabBar::tab:!selected{
+    color: #bbb;
+    background:transparent;
+}
+QTabBar::tab:hover{
+    color: #666;
+    background:transparent;
+}
+QTabBar::close-button {
+    background-position: center;
+    background-image: url(":/style/images/close.png");
+}
+QTabBar::close-button:selected,QTabBar::close-button:hover {
+    background-position: center;
+    background-image: url(":/style/images/close_hover.png");
+}
+
+
+/*dialog*/
+QComboBox{
+    min-height:24px;
+    padding-left:5px;
+}
+QDoubleSpinBox, QLineEdit{
+    min-height:24px;
+    padding-left:5px;
+    background:#fff;
+    border:1px solid #ccc;
+}
+
+QWidget QPushButton{
+    border: none;
+    background-color: #ccc;
+    color:#666;
+    min-width:60px;
+    max-width:60px;
+    min-height:24px;
+    font-family: Arial;
+}
+
+QWidget QPushButton:hover{
+    background-color: #aaa;
+    color:#000;
+    border:0px solid #7a7a7a;
+}
+QWidget #btn_ok, QWidget #btn_cancel, QWidget #btn_apply, QWidget #btn_upgrade{
+    min-width:80px;
+    max-width:80px;
+    min-height:30px;
+}
+QWidget #btn_test,QWidget #btn_clear{
+    background:transparent;
+    color:blue;
+    min-width:30px;
+    max-width:30px;
+}
+QWidget #btn_test:hover,QWidget #btn_clear:hover{
+    color:red;
+}
+QWidget QPushButton:focus,QWidget QPushButton:default{
+    border:0px solid #0078d7;
+    /*border:1px solid #7a7a7a;*/
+}
+QWidget QPushButton:disabled{
+    background:#ddd;
+    color:#aaa;
+}
+QPlainTextEdit{
+    border:1px solid rgba(0,0,0,25%);
+}
+
+
+/*messagebox*/
+QMessageBox,QInputDialog{
+    background:#efefef;
+}
+QMessageBox QPushButton, QInputDialog QPushButton{
+    border: none;
+    background-color: #ccc;
+    color:#666;
+    min-width:80px;
+    min-height:24px;
+    font-family: Arial;
+    padding-left:5px;
+    padding-right:5px;
+}
+QMessageBox QPushButton:hover, QInputDialog QPushButton:hover{
+    background-color: #aaa;
+    color:#000;
+    border:0px solid #7a7a7a;
+}
+QMessageBox QPushButton:default, QInputDialog QPushButton:default{
+    border:0px solid #0078d7;
+}
+#msgboxTitleBar{
+    min-width:100px;
+    max-width:500px;
+}
+#messageBox{
+    background-color:#ddd;
+}
+QInputDialog QLabel{
+    min-width:230px;
+}
+
+
+/*scrollbar*/
+QScrollArea{
+    border:none;
+}
+QScrollBar:vertical {
+    background: rgba(0,0,0,25%);
+    width: 16px;
+    margin: 20px 0 20px 0;
+}
+QScrollBar::handle:vertical {
+    background: rgba(0,0,0,25%);
+    min-height: 20px;
+}
+QScrollBar::handle:vertical:hover{
+    background:rgba(0,0,0,50%);
+}
+QScrollBar::up-arrow:vertical {
+    image: url(:/style/images/arrow_up.png);
+    width: 10px;
+    height: 10px;
+}
+QScrollBar::down-arrow:vertical {
+    image: url(:/style/images/arrow_down.png);
+    width: 10px;
+    height: 10px;
+}
+QScrollBar::sub-line:vertical {
+    background: rgba(0,0,0,25%);
+    height: 20px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+QScrollBar::add-line:vertical {
+    background: rgba(0,0,0,25%);
+    height: 20px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+QScrollBar:horizontal {
+    background: rgba(0,0,0,25%);
+    height: 16px;
+    margin: 0 20px 0 20px;
+}
+QScrollBar::handle:horizontal {
+    background: rgba(0,0,0,25%);
+    min-width: 20px;
+}
+QScrollBar::handle:horizontal:hover{
+    background:rgba(0,0,0,50%);
+}
+QScrollBar::left-arrow:horizontal {
+    image: url(:/style/images/arrow_left.png);
+    width: 10px;
+    height: 10px;
+}
+QScrollBar::right-arrow:horizontal {
+    image: url(:/style/images/arrow_right.png);
+    width: 10px;
+    height: 10px;
+}
+QScrollBar::sub-line:horizontal {
+    background: rgba(0,0,0,25%);
+    width: 20px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+QScrollBar::add-line:horizontal {
+    background: rgba(0,0,0,25%);
+    width: 20px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+/*progress*/
+QProgressBar {
+    color:#fff;
+    text-align: center;
+    font-size:10pt;
+    border:0;
+}
+QProgressBar::chunk {
+    background:#D32424;
+}
+
+
+/*others*/
+#groupboxToolbar{
+    border:none;
+    border-top:1px solid #ccc;
+}
+#DlgSetting QTabWidget::pane{
+    padding-top:2ex;
+}
+QWidget QGroupBox::title {
+     subcontrol-origin: margin;
+     subcontrol-position: top left;
+     margin-bottom:10px;
+     margin-left:10px;
+     background:transparent;
+}
+QWidget{
+    font-size:12pt;
+}
+DlgUpdater{
+    qproperty-vspacing: 2;
+}

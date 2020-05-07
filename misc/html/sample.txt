@@ -1,0 +1,96 @@
+﻿<div>
+	<div style="font-weight:bold;font-size:14px;text-align:center;">
+		签购单
+	</div>
+	<div style="padding:5px 0 5px 0;margin-top:5px;">
+		门店名：会所1<br />
+会员名：张惠妹<br />
+流水号：201511090016<br />
+日期：2019年07月24日
+	</div>
+	<hr />
+</div>
+<table width="100%" cellspacing="2" cellpadding="0">
+	<tbody>
+		<tr>
+			<td width="80%">
+				<strong>名称</strong> 
+			</td>
+			<td width="20%" align="right">
+				<strong>数量</strong> 
+			</td>
+		</tr>
+		<tr>
+			<td>
+				种植
+			</td>
+			<td align="right">
+				1
+			</td>
+		</tr>
+		<tr>
+			<td>
+				天地藏浴
+			</td>
+			<td align="right">
+				1
+			</td>
+		</tr>
+		<tr>
+			<td>
+				表皮
+			</td>
+			<td align="right">
+				1
+			</td>
+		</tr>
+		<tr>
+			<td>
+				平衡霜*1
+			</td>
+			<td align="right">
+				1
+			</td>
+		</tr>
+		<tr>
+			<td>
+				平衡霜*2
+			</td>
+			<td align="right">
+				1
+			</td>
+		</tr>
+		<tr>
+			<td>
+				平衡霜*3
+			</td>
+			<td align="right">
+				1
+			</td>
+		</tr>
+		<tr>
+			<td>
+				平衡霜*4
+			</td>
+			<td align="right">
+				1
+			</td>
+		</tr>
+		<tr>
+			<td>
+				平衡霜*5
+			</td>
+			<td align="right">
+				1
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>总计</strong> 
+			</td>
+			<td align="right">
+				<strong>4</strong> 
+			</td>
+		</tr>
+	</tbody>
+</table>
