@@ -17,4 +17,4 @@ function download_content($content, $title, $charset='gbk'){
     print($content) ;exit ;
 }
 
-download_content('this is testing', '哈哈哈.txt') ;
+download_content('this is testing', 'hello.txt') ;

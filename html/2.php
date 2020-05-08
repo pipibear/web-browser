@@ -13,7 +13,7 @@
 <div><a href="2.php" target="_blank">2.php new</a></div>
 
 <div><a href="2.pdf" target="_blank">open 2.pdf</a></div>
-<div><a href="2.chm">download 2.chm</a></div>
+<div><a href="3.php">download file</a></div>
 <div><a href="javascript:">printview</a></div>
 <div><a href="javascript:" onclick="window.print()">print</a></div>
 <div><a href="javascript:window.close()">Close</a></div>
