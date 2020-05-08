@@ -1,5 +1,5 @@
 # Description
-This is a simple web browser, which is written by python based on qt5, you can also publish your web page as a single desktop application, you can also print your web page directly instead of  system printing page. You can also cusomize your special function and cool style. 
+This is a customized simple web browser. It is written in Python language based on Qt5 and chrome. You can package your web page into a stand-alone desktop application. You can also customize your user interface with QSS code. It even allows you to use js code to call system API. The most important thing is that it is too simple to use. It can greatly improve your development efficiency.
 
 - top menu
 ![screenshot-1](https://github.com/pipibear/web-browser/blob/master/screenshot/screenshot-1.png)
