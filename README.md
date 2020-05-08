@@ -17,6 +17,7 @@ This is a customized simple web browser. It is written in Python language based 
 - pyqt5 5.12
 - pyqt5-tools 5.12
 - pyqtwebengine 5.12
+- pyinstaller3.5+
 
 # Quick Start
 run python main.py on command line
