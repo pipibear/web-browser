@@ -23,7 +23,7 @@ run python main.py on command line
 
 you can also view the ./config.ini for details
 
-#Compile
+# Compile
 - windows
   - run ./build.bat on command line
 - mac
