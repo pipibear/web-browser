@@ -6,10 +6,10 @@ This is a simple web browser, which is written by python based on qt5, you can a
 ![screenshot-3](https://github.com/pipibear/web-browser/blob/master/screenshot/screenshot-3.png)
 
 # Requirements
-python 3.7+
-pyqt5 5.12
-pyqt5-tools 5.12
-pyqtwebengine 5.12
+- python 3.7+
+- pyqt5 5.12
+- pyqt5-tools 5.12
+- pyqtwebengine 5.12
 
 # Quick Start
 run python main.py on command line
